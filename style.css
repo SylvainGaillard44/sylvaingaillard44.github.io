@@ -7,17 +7,17 @@ a:hover{color:#0c2338;text-decoration:underline}
 a:focus-visible{outline:3px solid #7ba5c8;outline-offset:5px;border-radius:2px}
 .skip-link{position:absolute;left:16px;top:-100px;background:white;padding:8px 16px;z-index:10}
 .skip-link:focus{top:12px}
-.site-header{background:var(--navy);border-bottom:4px solid #304e68}
+.site-header{background:var(--paper);border-bottom:3px solid var(--blue)}
 .header-inner{max-width:1120px;margin:0 auto;padding:24px 40px}
-.site-name{font-size:1.45rem;font-weight:600;letter-spacing:.01em;color:#fff;text-decoration:none}
-.site-name:hover{color:#fff;text-decoration:none}
+.site-name{font-size:1.45rem;font-weight:600;letter-spacing:.01em;color:var(--navy);text-decoration:none}
+.site-name:hover{color:var(--blue);text-decoration:none}
 .layout{width:100%;max-width:1120px;margin:0 auto;display:grid;grid-template-columns:275px minmax(0,1fr);gap:76px;padding:70px 40px 86px;flex:1;align-items:start}
 .portrait{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;object-position:center 37%;border-radius:3px}
 .profile-details{padding-top:23px;font-size:.95rem}
 .position{font-weight:600;color:var(--navy);margin:0 0 3px}
 .affiliation{margin:0;line-height:1.65}
 .location{color:var(--muted);margin:18px 0 5px}
-.email{font-size:.9rem;overflow-wrap:anywhere}
+.email{display:block;width:fit-content;max-width:100%;font-size:.9rem;overflow-wrap:anywhere}
 .profile-links{border-top:1px solid var(--line);margin-top:24px;padding-top:16px;display:flex;flex-direction:column;align-items:flex-start;gap:7px}
 .profile-links a{text-decoration:none}
 .profile-links a:hover{text-decoration:underline}
