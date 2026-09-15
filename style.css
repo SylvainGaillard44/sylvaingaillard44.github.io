@@ -56,3 +56,55 @@ h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.25rem,4vw,3.1re
 .publication-links a{text-decoration-thickness:1px}
 .link-separator{color:var(--muted);margin:0 5px}
 @media(max-width:620px){.publication-intro{margin-bottom:28px}.publication-entry{padding:22px 0}.publication-title{font-size:1.12rem}.publications-page .publication-journal,.publications-page .publication-authors,.publications-page .publication-links{font-size:.93rem}.link-separator{display:block;height:3px;font-size:0}}
+
+/* Centered site footer with profile links */
+.site-footer .footer-inner{
+  max-width:1120px;
+  margin:0 auto;
+  padding:18px 40px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  text-align:center;
+}
+.footer-name{
+  color:var(--navy);
+  text-decoration:none;
+  font-size:.9rem;
+}
+.footer-name:hover,
+.footer-name:focus-visible{
+  text-decoration:underline;
+}
+.footer-social{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+}
+.footer-social a{
+  display:inline-flex;
+  width:28px;
+  height:28px;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  text-decoration:none;
+  transition:opacity .15s ease, transform .15s ease;
+}
+.footer-social img{
+  display:block;
+  width:21px;
+  height:21px;
+  object-fit:contain;
+}
+.footer-social a:hover,
+.footer-social a:focus-visible{
+  opacity:.72;
+  transform:translateY(-1px);
+}
+@media(max-width:620px){
+  .site-footer .footer-inner{padding:16px 24px}
+}
