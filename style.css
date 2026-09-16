@@ -108,3 +108,44 @@ h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.25rem,4vw,3.1re
 @media(max-width:620px){
   .site-footer .footer-inner{padding:16px 24px}
 }
+
+/* Research overview */
+.research-introduction{
+  max-width:1000px;
+}
+.research-introduction::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.research-introduction p{
+  margin:0 0 20px;
+  color:var(--text);
+  font-size:1.05rem;
+  line-height:1.85;
+}
+.research-intro-figure{
+  float:right;
+  width:min(34%,320px);
+  margin:0 0 24px 42px;
+}
+.research-intro-figure img{
+  display:block;
+  width:100%;
+  height:auto;
+  border:1px solid var(--line);
+}
+.research-intro-figure figcaption{
+  margin-top:9px;
+  color:var(--muted);
+  font-size:.78rem;
+  line-height:1.5;
+}
+@media(max-width:760px){
+  .research-intro-figure{
+    float:none;
+    width:100%;
+    max-width:320px;
+    margin:0 auto 28px;
+  }
+}
