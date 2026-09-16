@@ -215,3 +215,7 @@ h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.25rem,4vw,3.1re
   .research-figures{width:100%;max-width:420px;margin:0 auto}
   .research-figure-diagram{max-width:200px}
 }
+
+/* Homepage meeting booking */
+.meeting-button{display:inline-block;max-width:100%;margin-top:16px;padding:9px 16px;border:1px solid var(--blue);border-radius:4px;background:var(--blue);color:#fff;font-size:.9rem;font-weight:600;line-height:1.5;text-align:center;text-decoration:none}
+.meeting-button:hover{background:var(--navy);border-color:var(--navy);color:#fff;text-decoration:none}
