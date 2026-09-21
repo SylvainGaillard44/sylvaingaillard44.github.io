@@ -221,6 +221,7 @@ h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.25rem,4vw,3.1re
 .meeting-button:hover{background:var(--navy);border-color:var(--navy);color:#fff;text-decoration:none}
 
 /* Homepage landscape photograph */
-.home-landscape{margin:32px 0 0}
-.home-landscape img{display:block;width:100%;height:auto;border-radius:3px}
+.introduction{min-width:0}
+.home-landscape{width:100%;max-width:100%;margin:32px 0 0}
+.home-landscape img{display:block;width:100%;max-width:100%;height:auto;border-radius:3px}
 .home-landscape figcaption{margin-top:8px;color:var(--muted);font-size:.85rem;line-height:1.5}
